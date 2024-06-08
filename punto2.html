@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punto 2 Condiciones</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/335623b583.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="pto2">
+        <h3>PUNTO 2</h3>
+        <p>Puedes llevar hasta 10 consolas en total</p>
+        <div class="imgs">
+            <div class="item">
+                <img src="./assets/imgs/atari.png" width="150px" alt="Atari 2600">
+                <input type="number" id="input21" min="0" max="10" value="0">
+            </div>
+            <div class="item">
+                <img src="./assets/imgs/ps1.jpg" width="150px" height="150px" alt="PS1">
+                <input type="number" id="input22" min="0" max="10" value="0">
+            </div>
+            <div class="item">
+                <img src="./assets/imgs/snes.jpg" width="150px" alt="SNES">
+                <input type="number" id="input23" min="0" max="10" value="0">
+            </div>
+        </div>
+        <p><span id="cuenta"></span></p>
+        <p id="verificacion">Llevas demasiadas consolas.</p>
+        <button id="comprar">Comprar</button>
+    </section>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
